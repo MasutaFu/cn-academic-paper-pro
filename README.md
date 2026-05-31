@@ -37,36 +37,36 @@
 
 ### 主入口
 
-| 文件                 | 功能                                      |
-| -------------------- | ----------------------------------------- |
-| `SKILL.md`           | 总入口，定义触发条件、阶段地图、风格底盘  |
-| `PROJECT-CONTEXT.md` | IC 人才论文项目专属知识库（其他论文跳过） |
+| 文件 | 功能 |
+|---|---|
+| `SKILL.md` | 总入口，定义触发条件、阶段地图、风格底盘 |
+| `PROJECT-CONTEXT.md` | IC 人才论文项目专属知识库（其他论文跳过）|
 
 ### 阶段性方法论（按论文生命周期）
 
-| 文件                                 | 阶段     | 何时加载                         |
-| ------------------------------------ | -------- | -------------------------------- |
-| `references/01-topic-framing.md`     | 选题立项 | 用户说"想写一篇关于 X 的论文"    |
-| `references/02-theory-framework.md`  | 理论框架 | 用户问"理论框架怎么搭"           |
-| `references/03-literature-review.md` | 文献综述 | 用户问"文献综述怎么写"           |
-| `references/04-methodology.md`       | 方法设计 | 用户问"方法论""比较研究"         |
-| `references/05-drafting.md`          | 初稿撰写 | 用户说"帮我写""起草"             |
-| `references/06-revision-loop.md`     | 迭代修订 | 用户说"改一改""审稿意见怎么回应" |
-| `references/07-submission-prep.md`   | 投稿适配 | 用户说"投稿""期刊格式"           |
+| 文件 | 阶段 | 何时加载 |
+|---|---|---|
+| `references/01-topic-framing.md` | 选题立项 | 用户说"想写一篇关于 X 的论文" |
+| `references/02-theory-framework.md` | 理论框架 | 用户问"理论框架怎么搭" |
+| `references/03-literature-review.md` | 文献综述 | 用户问"文献综述怎么写" |
+| `references/04-methodology.md` | 方法设计 | 用户问"方法论""比较研究" |
+| `references/05-drafting.md` | 初稿撰写 | 用户说"帮我写""起草" |
+| `references/06-revision-loop.md` | 迭代修订 | 用户说"改一改""审稿意见怎么回应" |
+| `references/07-submission-prep.md` | 投稿适配 | 用户说"投稿""期刊格式" |
 
 ### 横切手册（任何阶段都可能调用）
 
-| 文件                                                 | 用途                         |
-| ---------------------------------------------------- | ---------------------------- |
-| `references/A-style-guide.md`                        | 去 AI 化与学术语体（最常用） |
-| `references/B-references-gbt7714.md`                 | 参考文献体系管理             |
-| `references/C-political-compliance.md`               | 涉台、跨国比较等政治措辞合规 |
-| `references/D-figure-style.md`                       | 学术配图规范                 |
-| `references/E-docx-output.md`                        | docx 生成与格式调优          |
-| `references/F-self-review.md`                        | 自评清单与多专家审稿模板     |
-| `references/G-ai-detection.md`                       | CNKI AIGC 检测应对           |
-| `references/H-banned-words.md`                       | 硬禁用词与密度管理词清单     |
-| `references/I-banned-words-by-paragraph-position.md` | 按段落位置的敏感词清单       |
+| 文件 | 用途 |
+|---|---|
+| `references/A-style-guide.md` | 去 AI 化与学术语体（最常用）|
+| `references/B-references-gbt7714.md` | 参考文献体系管理 |
+| `references/C-political-compliance.md` | 涉台、跨国比较等政治措辞合规 |
+| `references/D-figure-style.md` | 学术配图规范 |
+| `references/E-docx-output.md` | docx 生成与格式调优 |
+| `references/F-self-review.md` | 自评清单与多专家审稿模板 |
+| `references/G-ai-detection.md` | CNKI AIGC 检测应对 |
+| `references/H-banned-words.md` | 硬禁用词与密度管理词清单 |
+| `references/I-banned-words-by-paragraph-position.md` | 按段落位置的敏感词清单 |
 
 ---
 
@@ -195,13 +195,13 @@ view cn-academic-paper SKILL.md（取通用基础规则）
 
 ## 字数与结构
 
-| 文件类型                  | 文件数 | 总字数      |
-| ------------------------- | ------ | ----------- |
-| SKILL.md                  | 1      | ~13000      |
-| 阶段性 references (01-07) | 7      | ~60000      |
-| 横切 references (A-I)     | 9      | ~83000      |
-| PROJECT-CONTEXT.md        | 1      | ~5000       |
-| **合计**                  | **18** | **~161000** |
+| 文件类型 | 文件数 | 总字数 |
+|---|---|---|
+| SKILL.md | 1 | ~13000 |
+| 阶段性 references (01-07) | 7 | ~60000 |
+| 横切 references (A-I) | 9 | ~83000 |
+| PROJECT-CONTEXT.md | 1 | ~5000 |
+| **合计** | **18** | **~161000** |
 
 主 SKILL.md 约 268 行，符合 skill-creator 的 < 500 行建议。
 各 reference 文件均在 200-520 行之间，结构化清晰。
@@ -211,7 +211,6 @@ view cn-academic-paper SKILL.md（取通用基础规则）
 ## 适用范围
 
 ✅ **适合**：
-
 - 中文 C 刊学术论文撰写
 - 教育学、科技政策、比较制度、公共管理等社科领域
 - 投稿《中国高教研究》《高等工程教育研究》《教育研究》《管理世界》等
@@ -219,7 +218,6 @@ view cn-academic-paper SKILL.md（取通用基础规则）
 - 多轮审稿与修订
 
 ❌ **不适合**：
-
 - 自然科学领域论文（化学、物理、生物等需领域特化）
 - 海外英文期刊投稿（按目标期刊编辑政策）
 - 学位论文（结构、字数、审稿机制不同，需另写 skill）
